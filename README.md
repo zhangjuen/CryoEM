@@ -1,5 +1,6 @@
 RemoveBadImages.py
 #This code is for removing rejected/uncategorized exposures in motion correct jobs
+
 #download the code anywhere you want
 #run the code
 #type 1 to remove rejected images; type 2 to remove uncategorized images. If you want to remove accepted images, type 96
