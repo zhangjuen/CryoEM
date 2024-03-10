@@ -39,10 +39,10 @@ while True:
     #print("Line{}: {}".format(count, line.strip()))
     for i in range(len(imageStartIndex)):
         str = line[imageStartIndex[i]:imageEndIndex[i]]
-        ennEnd = str.find('enn')
+        ennEnd = str.find('.frames')
         dirEnd = str.find('ted/')
         dirRemove = '../'+str[0:dirEnd+4]
-        removeName = str[dirEnd+5:ennEnd+3]
+        removeName = str[dirEnd+5:ennEnd]
         purge(dirRemove, removeName)
         #print(dirRemove)
         #print(removeName) 
