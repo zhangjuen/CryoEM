@@ -1,4 +1,4 @@
-RemoveBadImages.py
+**RemoveBadImages.py**
 
 #This code is for removing rejected/uncategorized exposures in motion correct jobs
 
