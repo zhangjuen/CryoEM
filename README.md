@@ -4,6 +4,8 @@
 
 #download and save RemoveBadImages.py anywhere you want
 
+#go into your curate exposure folder
+
 #run the code
 
 #type 1 to remove rejected images; type 2 to remove uncategorized images. If you want to remove accepted images, type 96
@@ -13,11 +15,11 @@
 
 #example
 
-cd P4/J125
+cd P4/J125  # your curate exposure folder
 
-python3 path/RemoveBadImages.py
+python3 path/RemoveBadImages.py   #the code path
 
-1
+1    #1, reject; 2, uncatergorized
 
-J123
+J123   #motion correct job name
 
