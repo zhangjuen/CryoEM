@@ -1,5 +1,6 @@
 **RemoveBadImages.py** for cryosparc version 3.xx
-**RemoveBadImages.py** for cryosparc version 4.xx
+
+**RemoveBadImages_v4.py** for cryosparc version 4.xx
 
 #This code is for removing rejected/uncategorized exposures in motion correct jobs
 
@@ -23,4 +24,7 @@ python3 path/RemoveBadImages.py   #the code path
 1    #1, reject; 2, uncatergorized
 
 J123   #motion correct job name
+
+
+**RemoveBadImages_v4_raw.py** for cryosparc version 4.xx to remove raw images (movies)
 
