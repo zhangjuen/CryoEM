@@ -25,6 +25,19 @@ python3 path/RemoveBadImages.py   #the code path
 
 J123   #motion correct job name
 
+###############################################################################
 
 **RemoveBadImages_v4_raw.py** for cryosparc version 4.xx to remove raw images (movies)
+
+#example
+
+cd P4/J125  # your curate exposure folder
+
+python3 path/RemoveBadImages.py   #the code path
+
+1    #1, reject; 2, manual rejected
+
+24May16  #the initial common name of the images
+
+/data/rawdata/24May16  #the path to the raw image folder
 
