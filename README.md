@@ -27,7 +27,7 @@ J123   #motion correct job name
 
 ###############################################################################
 
-**RemoveBadImages_v4_raw.py** for cryosparc version 4.xx to remove raw images (movies)
+**RemoveBadImages_v4_raw.py** for cryosparc version 4.xx to remove raw images (movies); data collected by Leginon
 
 #example
 
@@ -41,3 +41,19 @@ python3 path/RemoveBadImages.py   #the code path
 
 /data/rawdata/24May16  #the path to the raw image folder
 
+###############################################################################
+
+**RemoveBadImages_v5_raw.py** for cryosparc version 4.xx to remove raw images (movies); data collected by EPU
+#example
+
+cd P4/J125  # your curate exposure folder
+
+python3 path/RemoveBadImages.py   #the code path
+
+1    #1, reject; 2, manual rejected
+
+FoilHole  #the initial common name of the images
+
+fractions # the end common name of the images
+
+path/Images-Disc1/  #the path to the raw image common folder, it will search the files under all subfolders (squares)
